@@ -8,8 +8,8 @@ Live camera unit (OV2640/OV3660/OV5640, DVP) with MJPEG streaming, snapshots to 
 
 <table>
   <tr>
-    <td><img src="image/cam.png" width="280" alt="Cam-M camera page"></td>
-    <td><img src="image/home.png" width="280" alt="Cam-M home page"></td>
+    <td width="50%"><img src="image/cam.png" width="100%" alt="Cam-M camera page"></td>
+    <td width="50%"><img src="image/home.png" width="100%" alt="Cam-M home page"></td>
   </tr>
 </table>
 
@@ -58,7 +58,7 @@ The only tested class of board. Resolution is bounded by the fitted sensor: OV36
 
 1. Flash the pre-built binary to your ESP32-S3 N16R8 (binaries in Releases) using [webflasher_Node32-HUB](https://github.com/nasp2000/webflasher_Node32-HUB). For future updates use **OTA** at `http://<esp32-ip>/ota`
 2. Power the board — it boots into AP mode (or joins your Wi-Fi if already configured)
-3. Open `http://cam-m1.local/camera` in a browser (mDNS — follows the System Name) or `http://<esp32-ip>/camera`, and log in (default `root`/`root`)
+3. Open `http://cam-m.local/camera` in a browser (mDNS — follows the System Name) or `http://<esp32-ip>/camera`, and log in (default `root`/`root`)
 4. Click **Start** — the live view appears; tweak presets / resolution / motion in the side panels
 
 ---
@@ -71,7 +71,7 @@ The only tested class of board. Resolution is bounded by the fitted sensor: OV36
 4. Browse to `http://192.168.4.1`
 5. Login with user **root** / password **root**
 6. Go to **Settings → Wi-Fi** and connect to your local network
-7. Once connected, the AP turns off automatically and the device is reachable at `http://cam-m1.local` (mDNS — follows the System Name) or the assigned IP
+7. Once connected, the AP turns off automatically and the device is reachable at `http://cam-m.local` (mDNS — follows the System Name) or the assigned IP
 
 > If the device loses connection to the Wi-Fi network, it reactivates AP mode automatically.
 
