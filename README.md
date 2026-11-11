@@ -7,10 +7,10 @@
 Live camera unit (OV2640/OV3660/OV5640, DVP) with MJPEG streaming, snapshots to SD, AVI recording, dashcam auto-rotation, timelapse, and a grayscale-diff motion detector with a configurable action (record video / snap photo). The web UI runs entirely in the browser — the ESP32 only captures and streams JPEG frames.
 
 <p align="center">
-  <a href="image/demo.mp4"><img src="image/demo.png" width="100%" alt="Cam-M demo — click to play (42 s, 1080p)"></a>
+  <a href="image/demo.mp4"><img src="image/demo.gif" width="100%" alt="Cam-M web UI with the live MJPEG stream (9 s loop)"></a>
 </p>
 
-▶ **[Watch the 42-second demo](image/demo.mp4)** — live MJPEG stream and web UI, recorded at 1080p.
+▶ **[Watch the full 42-second demo](image/demo.mp4)** — the loop above shows the camera page; the full recording walks through the menus, settings and the live stream at 1080p.
 
 <table>
   <tr>
